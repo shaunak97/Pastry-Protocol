@@ -11,7 +11,7 @@ TEAM MEMBERS:
 
 WHAT IS RUNNING: 
   
-    The program forms an overlay network of nodes with numNode number of Pastry nodes. A unique nodeId is created for each node along with a table that stores the leafset, neighbourhood set and the routing table. The program is able to perform routing through the nodes and return the number of hops required to reach the destination. The program ends when each nodes completes the numRequests number of requests and the average hop count is the output.
+  The program forms an overlay network of nodes with numNode number of Pastry nodes. A unique nodeId is created for each node along with a table that stores the leafset, neighbourhood set and the routing table. The program is able to perform routing through the nodes and return the number of hops required to reach the destination. The program ends when each nodes completes the numRequests number of requests and the average hop count is the output.
     
 
 PROGRAM INPUTS:
