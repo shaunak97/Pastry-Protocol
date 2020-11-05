@@ -28,6 +28,7 @@ PROGRAM INPUTS:
   
   
 LARGEST NETWORK DEALT WITH:
+
         The largest network the program run for was numNodes = 25000 and the average number of hops is 5.8
         The average hop count varies according to the value of b, number of nodes and number of requests. The average hop count increases with the number of nodes in the network.
   
