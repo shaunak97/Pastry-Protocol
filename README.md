@@ -18,14 +18,14 @@ HOW TO RUN:
 
 WHAT IS RUNNING: 
   
-  The program forms an overlay network of nodes with numNode number of Pastry nodes. A unique nodeId is created for each node along with a table that stores the leafset, neighbourhood set and the routing table. The program is able to form a connection between the nodes in the shortest number of hops possible and returns the number of hops required to reach the destination. The program ends when each nodes completes the numRequests number of requests and the average number of hops it takes to route a message is printed as output.
+  The program forms an overlay network of nodes with numNode number of Pastry nodes. A unique nodeId is created for each node along with a table that stores the leafset, neighbourhood set and the routing table. The program is able to form a connection between the nodes in the shortest number route possible. The program checks the leafset, neighborhood set and the routing table to find the next node to forward the message to. The message being sent between the nodes is "Pastry". The program keeps track of hops for each connection. The final output is the average number of hops for all connections.  
     
 
 PROGRAM INPUTS:
       
       1.Number of nodes in the peer to peer system
       2.Number of requests each node has to make
-  
+        
   
 LARGEST NETWORK DEALT WITH:
 
