@@ -2,6 +2,12 @@
   
   The project is an implementation of Pastry, a scalable, distributed object location and routing substrate for wide-area peer-to-peer applications. Pastry is capable of performing application-level routing and object location in large overlay network of nodes. The project is implemented in F# using the Akka actor model. 
   
+Implemented as per the specification of the Pastry protocol that can be found in the paper Pastry: Scalable, decentralized object location and routing for large-scale peer-to-peer systems by A. Rowstron and P. Druschel.
+
+You can find the paper at http://rowstron.azurewebsites.net/PAST/pastry.pdf
+
+The paper above, in Section 2.3 contains a specification of the Pastry API and of the API implemented by the application.
+  
 TEAM MEMBERS:
 
 
